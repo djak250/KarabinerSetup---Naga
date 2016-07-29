@@ -16,79 +16,88 @@
         <!-- MISSION CONTROL - MIDDLE MOUSE -->
         __KeyToKey__
         PointingButton::MIDDLE,
-        
+
         KeyCode::CURSOR_UP,
         ModifierFlag::CONTROL_L,
+
+        Option::NOREPEAT
+    </autogen>
+    <autogen>
+        <!-- MISSION CONTROL - MIDDLE MOUSE -->
+        __KeyToKey__
+        PointingButton::BUTTON4,
         
-        Option::NOREPEAT,
+        KeyCode::F11,
+        
+        Option::NOREPEAT
     </autogen>
     <autogen>
         <!-- BACK BUTTON - SIDE 4 BUTTON -->
         __KeyToKey__
         KeyCode::KEY_4,
-        
+
         KeyCode::CURSOR_LEFT,
         ModifierFlag::COMMAND_L,
-        
-        Option::NOREPEAT,
+
+        Option::NOREPEAT
     </autogen>
     <autogen>
         <!-- FORWARD BUTTON - SIDE 1 BUTTON -->
         __KeyToKey__
         KeyCode::KEY_1,
-        
+
         KeyCode::CURSOR_RIGHT,
         ModifierFlag::COMMAND_L,
-        
-        Option::NOREPEAT,
+
+        Option::NOREPEAT
     </autogen>
     <autogen>
         <!-- NEXT SPACE - SIDE 7 BUTTON -->
         __KeyToKey__
         KeyCode::KEY_7,
-        
+
         KeyCode::CURSOR_LEFT,
-        
+
         ModifierFlag::CONTROL_L,
-        
-        Option::NOREPEAT,
+
+        Option::NOREPEAT
     </autogen>
     <autogen>
         <!-- PREVIOUS SPACE - SIDE 10 BUTTON -->
         __KeyToKey__
         KeyCode::KEY_0,
-        
+
         KeyCode::CURSOR_RIGHT,
-        
+
         ModifierFlag::CONTROL_L,
-        
-        Option::NOREPEAT,
+
+        Option::NOREPEAT
     </autogen>
     <autogen>
         <!-- PLAY - SIDE 12 BUTTON -->
         --KeyToConsumer--
         KeyCode::EQUAL,
-        
+
         ConsumerKeyCode::MUSIC_PLAY,
-        
-        Option::NOREPEAT,
+
+        Option::NOREPEAT
     </autogen>
     <autogen>
         <!-- NEXT TRACK - SIDE 6 BUTTON -->
         --KeyToConsumer--
         KeyCode::KEY_6,
-        
+
         ConsumerKeyCode::MUSIC_NEXT,
-        
-        Option::NOREPEAT,
+
+        Option::NOREPEAT
     </autogen>
     <autogen>
         <!-- PREVIOUS TRACK - SIDE 9 BUTTON -->
         --KeyToConsumer--
         KeyCode::KEY_9,
-        
+
         ConsumerKeyCode::MUSIC_PREV,
-        
-        Option::NOREPEAT,
+
+        Option::NOREPEAT
     </autogen>
 </item>
